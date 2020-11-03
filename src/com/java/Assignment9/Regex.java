@@ -8,6 +8,6 @@ public class Regex {
             Scanner in = new Scanner(System.in);
             String str = in.nextLine();
 
-            System.out.println(Pattern.matches("[A-Z][a-z ',]+.", str));
+            System.out.println(Pattern.matches("[A-Z][a-z ',]+[.]", str));
         }
 }

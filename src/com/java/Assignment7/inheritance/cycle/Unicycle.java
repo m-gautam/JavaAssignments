@@ -6,6 +6,6 @@ public class Unicycle extends Cycle {
     }
 
     public void balance(){
-        System.out.println("balance of unicycle");
+        System.out.println("it has least balance");
     }
 }
